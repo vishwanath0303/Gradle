@@ -34,5 +34,5 @@ jobs:
          run: |
             docker build -t vkulkarni0303/simple-gradle-java-app .
             docker images -a
-            docker push vkulkarni0303/simple-gradle-java-app
+            docker push vkulkarni0303/simple-gradle-java-app:latest
  
